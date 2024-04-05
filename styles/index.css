@@ -1,0 +1,99 @@
+body {
+  color: black;
+  font-size: 40px;
+}
+div {
+  justify-content: center;
+  padding: 10px;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+#heading {
+  grid-area: heading;
+  font-size: 100px;
+  justify-content: center;
+}
+
+#careerObj {
+  grid-area: career;
+  justify-content: center;
+
+  padding: 50px;
+  color: white;
+  background-image: linear-gradient(
+    to left,
+    rgb(69, 69, 243),
+    rgb(178, 178, 239)
+  );
+}
+
+#details {
+  grid-area: details;
+  color: white;
+
+  font-size: 50px;
+  width: 80%;
+  position: relative;
+  background-image: linear-gradient(
+    to right,
+    rgb(69, 69, 243),
+    rgb(178, 178, 239)
+  );
+}
+
+#contact {
+  float: left;
+  width: 70%;
+}
+
+#selfie {
+  position: absolute; /* Absolute positioning */
+  top: 0; /* Adjust as needed */
+  right: 0; /* Positioned on the right side */
+  padding: 0;
+}
+
+#experience {
+  grid-area: experience;
+}
+
+#techSkills {
+  grid-area: skills;
+  color: white;
+  top: 20px;
+  background-image: linear-gradient(
+    to left,
+    rgb(69, 69, 243),
+    rgb(178, 178, 239)
+  );
+}
+
+#reference {
+  grid-area: reference;
+  color: white;
+}
+
+#aboutMe {
+  grid-area: about;
+  color: white;
+}
+
+#education {
+  grid-area: education;
+  color: white;
+}
+
+#content {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'career heading heading'
+    'career details details'
+    'skills experience experience'
+    'about experience experience';
+}
