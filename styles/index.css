@@ -17,7 +17,7 @@ div {
 
 #heading {
   grid-area: heading;
-  font-size: 50px;
+  font-size: 40px;
   justify-content: center;
 }
 
