@@ -1,10 +1,11 @@
 body {
   color: black;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
 }
 
 img {
-  width: 50px;
+  width: 350px;
 }
 div {
   justify-content: center;
@@ -18,7 +19,7 @@ div {
 #heading {
   grid-area: heading;
   font-size: 40px;
-  justify-content: center;
+  padding: 0px;
 }
 
 #careerObj {
@@ -37,9 +38,12 @@ div {
 
 #details {
   grid-area: details;
+  padding-top: 0px;
+  padding-right: 0px;
   color: white;
-  font-size: 10px;
-  width: 80%;
+  font-size: 20px;
+  width: 100%;
+  height: 70%;
   position: relative;
   background-image: linear-gradient(
     to right,
@@ -57,7 +61,8 @@ div {
   position: absolute; /* Absolute positioning */
   top: 0; /* Adjust as needed */
   right: 0; /* Positioned on the right side */
-  width: 50px;
+  padding: 0;
+  width: 350px;
 }
 
 #experience {
